@@ -864,7 +864,7 @@ input:checked ~ .slide-box-2{
 	position: relative;
 	right: 80%;
 	top: 5%;
-	flex-direction: 52%
+
 }
 .espaco{
 	position: absolute;
@@ -880,6 +880,7 @@ input:checked ~ .slide-box-2{
 	align-items: center;
 	border-radius: 5%;
 	margin: 0 15px 30px 15px;
+
 }
 .img-about-news{
 	width: 200px;
