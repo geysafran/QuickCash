@@ -586,6 +586,10 @@ input:checked ~ .slide-box-2{
 .img-logo {
     width: 22vw;
     height: 8vh;
+    display: flex;
+	justify-content: space-between;
+	padding: 2%;
+
 
 
 }
@@ -713,10 +717,11 @@ input:checked ~ .slide-box-2{
 	flex-direction: column;
 	justify-content: flex-start;
 	flex-wrap: wrap;
-	padding: 5%;
+	padding: 13%;
 	position: relative;
 	z-index: 3;
 	overflow: hidden;
+
 
 
 }
@@ -824,11 +829,12 @@ input:checked ~ .slide-box-2{
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	width: 100%;
 	background-color: #FBF7F7;
 	padding: 0 25%;
 	position: relative;
 	overflow: hidden;
+	width: 112%;
+
 
 
 }
@@ -880,6 +886,7 @@ input:checked ~ .slide-box-2{
 	align-items: center;
 	border-radius: 5%;
 	margin: 0 15px 30px 15px;
+
 
 }
 .img-about-news{
