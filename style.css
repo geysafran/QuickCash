@@ -68,6 +68,9 @@ body {
 	background: rgba(0,131,202,0);
 	background: linear-gradient(to bottom, rgba(0,131,202,0) 0%, rgba(0,131,202,0.62) 62%, rgba(0,131,202,1) 100%);
 }
+.div-img-menu{
+	width: 100%;
+}
 .title-principal{
 	width: 35%;
 	font-family: 'Montserrat', sans-serif;
@@ -172,24 +175,49 @@ body {
 }
 
 #s-slide{
-	display: flex;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(0,131,202,1) 0%, rgba(0,131,202,1) 50%, rgba(0,89,202,1) 100%);
+    display: flex;
 	justify-content: space-around;
-	height: 100vh;
-	background: linear-gradient(to bottom, rgba(0,131,202,1) 0%, rgba(0,131,202,1) 50%, rgba(0,89,202,1) 100%);
+
 }
 
+
+;
+}
+/*.box-slide {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: azure;
+}*/
+
 .slide{
-	display: flex;
-    width: 52%;
+    width: 66%;
+    height: 80%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	/*display: flex;
     position: relative;
     top: 20%;
     left: 24%;
     background-color: #fff;
     border-radius: 5%;
-    box-shadow: 0px 1px 54px -20px rgba(0,0,0,0.75);
-    height: 58%;
+    box-shadow: 0px 1px 54px -20px rgba(0,0,0,0.75);*/
 }
-
+.pai-slide{
+	width: 95%;
+    height: 95%;
+    background-color: blue;
+}
 input{
 	display: none;
 }
@@ -252,7 +280,13 @@ input:checked ~ .slide-box-2{
     position: absolute;
 }
 .circles{
-	overflow: hidden;
+    width: 34%;
+    height: 20%;
+    /* overflow: hidden; */
+    background-color: blueviolet;
+}
+.paragrafo-slide{
+	    font-size: 30px;
 }
 .circle-one{
 	clip-path: circle(25% at 60% 50%);
@@ -579,7 +613,7 @@ input:checked ~ .slide-box-2{
 }
 #header {
 	font-family: 'Montserrat', sans-serif;
-	display: flex;
+
 
 
 }
@@ -597,6 +631,7 @@ input:checked ~ .slide-box-2{
 .menu {
 	text-decoration: none;
 	margin-left: 22vw;
+	
 }
 
 .item-menu {
@@ -746,12 +781,20 @@ input:checked ~ .slide-box-2{
 	margin-bottom: 12%;
 
 }
+.img-values-o{
+	width: 269px;
+    height: 181px;
+    position: absolute;
+    left: 26%;
+    opacity: 0.3;
 
+}
 .img-values{
 	width: 269px;
     height: 181px;
     position: absolute;
     left: 26%;
+
 }
 .box-title-values{
 	width: 28vw;
