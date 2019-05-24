@@ -748,10 +748,10 @@ input:checked ~ .slide-box-2{
 }
 
 .img-values{
-	width: 100px;
-	height: 100px;
-	position: absolute;
-	left: -30%;
+	width: 269px;
+    height: 181px;
+    position: absolute;
+    left: 26%;
 }
 .box-title-values{
 	width: 28vw;
