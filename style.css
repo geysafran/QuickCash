@@ -18,6 +18,10 @@ body {
 	width: 100%;
 	
 }
+.block-logo{
+	margin: 0% 6% 0% 0%;
+}
+
 #container-logo{
     width: 100%;
     display: flex;
@@ -127,7 +131,12 @@ body {
 .img-button{
     width: 16%;
     height: 40px;
-}	
+}
+.contact-subtitle{
+
+
+}
+
 #container-products{
 	background-color: rgba(0,131,202,1);
 	padding: 200px 0 100px 0;
@@ -154,9 +163,28 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-	/*background-color: black;*/
+
 
 }
+.box-cash-1{
+	width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.box-cash-2{
+	width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
 .title-cash{
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
@@ -197,7 +225,7 @@ body {
     font-weight: 700;
     color: #fff;
     width: 30%;
-    margin: 0px;
+    margin: 0;
     height: 1%;
 
 }
@@ -209,8 +237,8 @@ body {
     width: 28%;
 }
 .firstbox-simulater{
-    padding-top: 10%;
-	margin-left: 50%;
+   /* padding-top: 10%;
+	margin-left: 50%;*/
     width: 91%;
     height: 100%;
 	
@@ -442,7 +470,7 @@ input:checked ~ .slide-box-2{
 	display: flex;
 }
 #social-impact-news{
-	margin: 5%;
+	/*margin: 5%;*/
 	width: 100%;
 }
 
@@ -528,22 +556,23 @@ input:checked ~ .slide-box-2{
 }
 .boxred-news{
     font-family: 'Montserrat', sans-serif;
-    width: 20%;
-    height: 100%;
+    width: 24%;
+    height: 100vh;
     background: #fff8f8;
-    /*padding: 1%;
-    margin: 0% auto auto 9%;*/
+    margin: 0% auto auto 9%;
 }
 
 .box-news{
 	width: 100%;
+	height: 32vh;
 
 }
 .title-news{
 	font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-	padding: 3%;
-    width: 97%;
+    font-weight: 600;
+    font-size: 200%;
+	width: 100%;
+	height: 8vh;
     color: white;
     background: #f13d3d;
 }
@@ -558,7 +587,7 @@ input:checked ~ .slide-box-2{
 	font-family: 'Muli', sans-serif;
 	font-weight: 300;
 	font-size: 0.6rem;
-	padding: 3% 1%;
+
 
 }
 .p-news:after{
