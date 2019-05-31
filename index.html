@@ -59,13 +59,13 @@
 				<img class="img-cash" src="./img/card.png" alt="">
 				<p class="p-cash">Transfer of money from an individual onto a card</p>
 			</div>
-			<div class="box-cash-1">
+			<div class="box-cash">
 				<h2 class="title-cash">Cash to Account</h1>
 				<img class="img-cash" src="./img/account.png" alt="">
 				<p class="p-cash">Transfer of money from an individual to a bank account
 				</p>
 			</div>
-				<div class="box-cash-2">
+			<div class="box-cash">
 				<h2 class="title-cash">Nos Valeurs</h1>
 				<img class="img-cash" src="./img/valeurs.png" alt="">
 				<p class="p-cash">Solidarité - Écoute Responsabilité - Volonté Innovation - Réactivité</p>
@@ -73,6 +73,9 @@
 		</div>
 	</section>
 	<section id="simulater">
+		  <div class="div-simulater">
+		  	<figure> <img class="img-simulater" src="./img/contador.png"> </figure>
+		  </div>
 		<div class="transfer-coin"></div>
 			<div class="firstbox-simulater">
             		<h2 class="title-simulater">Simulate your transfer</h2>
@@ -101,28 +104,33 @@
 			</div>
 		</div>
 	</section>
-            <!-- <section id="s-slide">
+            <section id="s-slide">
               <div class="box-slide">
 			  <div class="slide">
-				<input id="inp-slide" type="checkbox">
-				<label for="slide" class="slide-box-1">
-					<img class="img-slide" src="./img/quickcash-honore.png" alt="">
-					<p class="p-slide">"With QuickCash, I no longer need to go into town for my transfers. Even in the village I can make my transfers at the ATM. Thank you QuickCash to have thought about the rural population. "</p>
-		            <p class="p-slide-2">ThéodoreN'Daplé (Farmer)</h1>
-				</label>
+			  	<figure><img src="./img/noun_Arrow_2427329 (1).svg" onclick="plusDivs(1)"></figure>
+				<div for="slide" class="slide-box">
+					<img class="img-slide" src="./img/depoimento1.png" alt="">
+				</div> 
+				<div for="slide" class="slide-box">
+					<img class="img-slide" src="./img/depoimento2.png" alt="">
+				</div> 
+				<div for="slide" class="slide-box">
+					<img class="img-slide" src="./img/depoimento3.png" alt="">
+				</div> 
+			<figure><img src="./img/noun_Arrow_2427329.svg"  onclick="plusDivs(-1)"></figure>
 		    </div>
         </div>
         <div class="circles">
 		    <div class="circle-one"></div>
 		    <div class="cicle-two"></div>
         </div>
-			<h2 class="title-slide">Writing a new page in the history of money transfer along with you!</h2>
+			
 	</section>
 	        <div class="circles">
 			   s
 	        </div>
         </div>
-	</section> -->
+	</section>
 	<section id="container-agency">
 			<img class="icon-agency" src="./img/globo.svg" alt="">
 			<h2 class="title-agency">Find an agency near you!</h2>
@@ -209,22 +217,28 @@
 		</div>
 		</section>
 		<section id="partners">
-			<h2 class="title-partners">Banking Partners</h2>
-			<div class="list-part">
-				<img src="./img/asusu.png" class="img-part" alt="">
-				<img src="./img/banque-populaire.png" class="img-part" alt="">
-				<img src="./img/boa-vert-bf.png" class="img-part" alt="">
-				<img src="./img/sonapost.png" class="img-part" alt="">
-				<img src="./img/cnce.png" class="img-part" alt="">
-			</div>
-			<h2 class="title-partners">Institutional Partners</h2>
-			<div class="list-part">
-				<img src="./img/inovapay.png" class="img-part" alt="">
-				<img src="./img/logo2.png" class="img-part" alt="">
-				<img src="./img/moneytrans.png" class="img-part" alt="">
-				<img src="./img/stanford.png" class="img-part" alt="">
-				<img src="./img/camec.png" class="img-part" alt="">
-				<img src="./img/chamber-trust.png" class="img-part" alt="">
+			<div class="div-part">
+				<div class="box-part">
+					<h2 class="title-partners">Banking Partners</h2>
+					<div class="list-part">
+						<img src="./img/asusu.png" class="img-part" alt="">
+						<img src="./img/banque-populaire.png" class="img-part" alt="">
+						<img src="./img/boa-vert-bf.png" class="img-part" alt="">
+						<img src="./img/sonapost.png" class="img-part" alt="">
+						<img src="./img/cnce.png" class="img-part" alt="">
+					</div>
+				</div>
+				<div class="box-part">
+					<h2 class="title-partners">Institutional Partners</h2>
+					<div class="list-part">
+						<img src="./img/inovapay.png" class="img-part" alt="">
+						<img src="./img/logo2.png" class="img-part" alt="">
+						<img src="./img/moneytrans.png" class="img-part" alt="">
+						<img src="./img/stanford.png" class="img-part" alt="">
+						<img src="./img/camec.png" class="img-part" alt="">
+						<img src="./img/chamber-trust.png" class="img-part" alt="">
+					</div>
+				</div>
 			</div>
 		</section>
 	<footer id="footer">
@@ -267,6 +281,25 @@
 		</div>
 
 	</footer>
+	<script>
+		let slideIndex = 1;
+		
+		showDivs(slideIndex);
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+		  let i;
+		  let x = document.getElementsByClassName("slide-box");
+		  if (n > x.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = x.length}
+		  for (i = 0; i < x.length; i++) {
+		     x[i].style.display = "none";  
+		  }
+		  x[slideIndex-1].style.display = "block";  
+		}
+	</script>
 	
 </body>
 </html>
