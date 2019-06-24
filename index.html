@@ -14,7 +14,7 @@
 		<section id="container-logo">
 			<div class="block-logo">
 				<a href="index.html">
-					<img class="img-logo-1" src="./img/logo.png">
+					<img class="img-logo-1" src="./img/logo.png" a href="./style.css"></a>
 				</a>
 			</div>
 			<nav class="menu">
@@ -39,9 +39,22 @@
 					<h1 class="title-principal">Breaking the boundaries between urban and rural areas!</h1>
 				</div>
 				<div class="div-button">
-					<button class="button-contact"> <img class="button-contact-img" src="./img/contact.svg">
-						<p class="button-description">contact</p> 
+					<button class="button-contact" onclick="start()"><img class="button-contact-img" src="./img/contact.svg">
+					
+                              <p class="button-description">contact</p> 
 					</button>
+				<div class="form">  
+					<form id="container-form">
+					     <label class="box-form">Name</label>
+						<input type="text" name="name" id="name">
+						<label class="box-form">E-mail</label>
+						<input type="email" name="email" id="email">
+						<label class="box-form">How can we help you?</label>
+						<textarea name="How can we help you?"></textarea>
+						<button class="button-cancel">Cancel</button>
+						<button class="button-send">Send</button>
+				     </form>
+				</div>
 				</div>
 			</div>
 		</section>
@@ -201,7 +214,8 @@
 				</div>
 				<a class="showmore-1" href="">< Show more ></a>
 			</div>
-		   <div class="container-box-news"> 
+		   <div class="container-box-news">
+		    <div class="container-news"> 
 			<div class="boxred-news">
 				<h2 class="title-news">News</h2>
 			</div>
@@ -219,6 +233,7 @@
 					<p class="p-news">Patricia ZOUNDI Mrs. YAO, CEO of QuickCash received the award of youth entrepreneurship on Friday 1st August at the National Day of Excellence. Held at the presidential palace, the ceremony was graced by the presence of the presidential couple, members of the government, diplomatic and responsible institution.</p>
 				</div>
 				<a class="showmore" href="">< Show more News ></a>
+			</div>
 			</div>
 			</div>
 		</div>
@@ -250,15 +265,17 @@
 			</div>
 		</section>
 	<footer id="footer">
-		<!-- <div class="grand-circle">
-			<img src="./img/circulos-vermelhos.png" alt="">
+	    <div class="box-grand-circle">	
+		<div class="grand-circle">
+			<img class="img-grand-circle" src="./img/circulos-vermelhos.png" alt="">
 		</div>
- -->	<div class="container-footer">
+	     </div>	
+	<div class="container-footer">
  			<div class="box-footer-center">
 				<div class="box-footer">
 					<div class="text-footer">
 						<div class="logo-footer">
-							<img src="./img/logo-footer.png" class="img-logo-footer" alt="">
+							<img src="./img/logo-footer.png" class="img-logo-footer" a href="./style.css"></a>
 						</div>
 						<div class="info-footer">
 							<img src="./img/baseline-location_on-24px.svg" class="info-footer-img" alt="">
@@ -281,12 +298,12 @@
 			</div>
 			<nav class="menu-secundario">
 				<ul class="list-menu-secundario">
-					<li class="item-menu-footer"><a href="">About us</a></li>
-					<li class="item-menu-footer"><a href="">Our Products</a></li>
-					<li class="item-menu-footer"><a href="">News</a></li>
-					<li class="item-menu-footer"><a href="">Contact</a></li>
+					<a href=""><li class="item-menu-footer">About us</li></a>
+					<a href=""><li class="item-menu-footer">Our Products</li></a>
+					<a href=""><li class="item-menu-footer">News</li></a>
+					<a href=""><li class="item-menu-footer">Contact</li></a>
 			</ul>
-				<img src="./img/circulos-brancos.png" alt="">
+				<img class="img-circle-whith" src="./img/circulos-brancos.png" alt="">
 			</nav>
 		</div>
 
@@ -308,6 +325,11 @@
 		     x[i].style.display = "none";  
 		  }
 		  x[slideIndex-1].style.display = "block";  
+		}
+
+		function start(){
+		console.log("chegooouu")
+
 		}
 	</script>
 	
