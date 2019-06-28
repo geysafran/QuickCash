@@ -21,7 +21,7 @@
 				<ul class="menu-list">
 					<a href="about.html" class="menu-item"><li>About us</li></a>
 					<a href="#OurProducts" class="menu-item"><li>Our Products</li></a>
-					<a href="#Contacts" class="menu-item"><li>Contacts</li></a>
+					<a href="#contatos" class="menu-item"><li>Contacts</li></a>
 					<div class="box-lang">
 						<a class="item-lang" href=""><span>EN</span>/FR</a>
 					</div>
@@ -151,7 +151,7 @@
         </div>
         <div class="box-writing">
         	<p class="writing">
-        		Writing a new page in the history of money transfer along with you!
+        		“Nous proposons des Services Financiers Innovants pour les Populations Rurales en Afrique”
         	</p>
         </div>
 	</section>
@@ -199,7 +199,7 @@
 			</div>
 		</section>
 		<section id="social-impact-news">
-				<h2 id="nwes" class="title-social">Social Impact</h2>
+				<h2 class="title-social">Social Impact</h2>
 				<div class="impact-news">
 		<div class="social-impact">
 						<div class="box-img-social">
@@ -276,7 +276,7 @@
 			</div>
 		</section>
 	<footer id="footer">
-	    <div id="Contacts" class="box-grand-circle">	
+	    <div class="box-grand-circle">	
 		<div class="grand-circle">
 			<img class="img-grand-circle" src="./img/circulos-vermelhos.png" alt="">
 		</div>
@@ -310,36 +310,12 @@
 			<nav class="menu-secundario">
 				<ul class="list-menu-secundario">
 					<a href="about.html"><li class="item-menu-footer">About us</li></a>
-					<a href="#OurProducts"><li class="item-menu-footer">Our Products</li></a>
-					<a href="#nwes"><li class="item-menu-footer">News</li></a>
-					<a href="#Contacts"><li class="item-menu-footer">Contact</li></a>
+					<a href=""><li class="item-menu-footer">Our Products</li></a>
+					<a href=""><li class="item-menu-footer">News</li></a>
+					<a href=""><li class="item-menu-footer">Contact</li></a>
 			</ul>
 				<img class="img-circle-whith" src="./img/circulos-brancos.png" alt="">
 			</nav>
 		</div>
 
 	</footer>
-	<script>
-		let slideIndex = 1;
-		
-		showDivs(slideIndex);
-		function plusDivs(n) {
-		  showDivs(slideIndex += n);
-		}
-
-		function showDivs(n) {
-		  let i;
-		  let x = document.getElementsByClassName("slide-box");
-		  if (n > x.length) {slideIndex = 1}    
-		  if (n < 1) {slideIndex = x.length}
-		  for (i = 0; i < x.length; i++) {
-		     x[i].style.display = "none";  
-		  }
-		  x[slideIndex-1].style.display = "block";  
-		}
-
-	</script>
-	<script src="./main.js"></script>
-	
-</body>
-</html>
