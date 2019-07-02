@@ -265,10 +265,7 @@ body {
     align-items: center;
     justify-content: center;
 
-
 }
-
-
 .title-cash{
 	width: 86%;
     text-align: end;
@@ -853,3 +850,50 @@ input:checked ~ .slide-box-2{
 	margin-left: 5vw;
 }
 
+/*Css do Products*/
+
+.box-products{
+    padding: 15vh 0 15vh 5vw;
+    width: 100%;
+	min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,131,202,1);
+}
+
+.title-products {
+    width: 50%;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.container-products{
+	width: 100%;
+    display: flex;
+	justify-content: space-between;
+	/* padding: 15vh 5vw 15vh 0; */
+}
+.box-product{
+	width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.box-product:hover{
+	color:#fff;
+	opacity: 0.5;
+}
+.box-product--Card{
+	width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+}
+.box-product--Card:hover{
+	color: #fff;
+	opacity: 0.5;
+}

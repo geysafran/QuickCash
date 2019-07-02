@@ -323,10 +323,17 @@ body {
   font-size:1rem;
 } */
 #footer{
-	height: 40vh;
+	height: 55vh;
 	display: flex;
 	justify-content: flex-end;
 	background-color: #EE3325;
+}
+
+.img-grand-circle{
+	width: 95%;
+    height: 40vh;
+    opacity: 0.5;
+    margin: 22px 0px 0px 40px;
 }
 .grand-circle-img{
 	width: 250px;
@@ -334,36 +341,50 @@ body {
 }
 .container-footer{
 	width: 90%;
-	height: 91%;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: space-around;
+	height: 88%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
 }
 .box-footer-center{
-	width: 70%;
+	width: 60%;
+	height: 40vh;
 	display: flex;
 	justify-content: center;
 }
 .box-footer{
-	width: 50%;
-  height: 80%;
-  display: flex;
-  flex-direction: column;
+	width: 61%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 	justify-content: space-between;
+  
 }
 .logo-footer{
-  width: 50%;
-	align-self: center;
+
 }
-.item-f {
+.item-menu-footer{
 	color: #fff;
+}
+.list-menu-secundario{
+	width: 9%;
+	height: 36vh;
+	align-self: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+
 }
 .info-footer {
 	display: flex;
 }
+
 .img-logo-footer{
 	width: 20vw;
+	margin: 1rem 0;
 }
 .p-info-footer{
 	font-family: 'Montserrat Alternates', sans-serif;
@@ -376,25 +397,43 @@ body {
 	width: 20px;
 }
 .box-copyright{
-	align-self: flex-end;
-	font-size: 0.7rem;
-  font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
+
 .copyright{
+	font-size: 0.95rem;
 	color: black;
 	opacity: 0.7;
 }
-.menufooter{
-  width: 9%;
-	height: 25vh;
-  display: flex;
-  justify-content: space-around;
-	align-self: center;
-  flex-direction: column;
-	color: #fff;
-	font-size: 0.7rem;
+.menu-secundario{
+	height: 45vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
 	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+/*	padding: 0.55rem;*/
+	font-size: 0.95rem;
 }
+.list-menu-secundario{
+	list-style: none;
+	text-decoration: none;
+	width: 100%;
+    height: 22vh;
+    margin: 30px 0px 0px 0px;
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+.img-circle-whith{
+	width: 85%;
+    height: 15vh;
+    margin: 0px 0px 0px 34px;
+}
+
 .menufooter img{
 	width: 6vw;
 }
