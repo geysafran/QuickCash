@@ -728,7 +728,7 @@ input:checked ~ .slide-box-2{
 	opacity: 0.6;
 }
 .container-footer{
-	width: 90%;
+	width: 70%;
     display: flex;
     justify-content: space-between;
 }
@@ -739,7 +739,7 @@ input:checked ~ .slide-box-2{
 .box-footer{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
   
 }
 
