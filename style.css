@@ -897,3 +897,182 @@ input:checked ~ .slide-box-2{
 	color: #fff;
 	opacity: 0.5;
 }
+......................................./...................................
+#OurProducts-Inside{
+	
+}
+
+
+.Inside{
+	display: flex;
+    justify-content: center;
+
+
+}
+
+.container-inside{
+	width: 80%;
+    height: 113vh;
+    display: flex;
+}
+
+.title-inside{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: red;
+	font-size: 2rem;
+
+}
+.box-inside{
+	    width: 33%;
+    height: 112vh;
+
+}
+
+.box-inside-cash-um{
+    width: 33%;
+    height: 112vh;
+}
+
+.box-inside-cash-dois{
+    width: 33%;
+    height: 112vh;
+}
+
+.box-inside-cash-tres{
+    width: 33%;
+    height: 112vh;
+}
+
+.d-inside{
+
+	
+}
+.sub-title-inside{
+	width: 192px;
+
+}
+
+.p-inside{
+    color: #707070;
+    opacity: .7;
+    width: 80%;
+}
+
+.p-step-inside{
+	color: #707070;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+...................../........................./......................../........................./...........
+
+#OurProducts-Inside-2{
+
+
+}
+
+.Inside-2{
+	display: flex;
+    justify-content: center;
+
+
+}
+
+.container-inside-2{
+	width: 80%;
+    height: 113vh;
+    display: flex;
+}
+
+.title-inside-2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: red;
+	font-size: 2rem;
+
+}
+
+.box-inside-2{
+	    width: 33%;
+    height: 112vh;
+
+}
+
+.box-inside-cash-2{
+    width: 33%;
+    height: 112vh;
+}
+
+.sub-title-inside-2{
+	width: 192px;
+
+}
+
+.p-inside-2{
+    color: #707070;
+    opacity: .7;
+    width: 80%;
+}
+
+.p-step-inside-2{
+	color: #707070;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+......................./......................./......................./......................./..........
+#OurProducts-Inside-3{
+
+
+}
+
+.Inside-3{
+	display: flex;
+    justify-content: center;
+
+
+}
+
+.container-inside-3{
+	width: 80%;
+    height: 113vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-inside-3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: red;
+	font-size: 2rem;
+
+}
+
+.box-inside-3{
+	    width: 33%;
+    height: 112vh;
+
+}
+
+.box-inside-cash-3{
+    width: 33%;
+    height: 112vh;
+}
+
+.sub-title-inside-3{
+	width: 192px;
+
+}
+
+.p-inside-3{
+    color: #707070;
+    opacity: .7;
+    width: 80%;
+}
+
+.p-step-inside-3{
+	color: #707070;
+    font-weight: bold;
+    font-size: 16px;
+}
