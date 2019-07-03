@@ -920,6 +920,7 @@ input:checked ~ .slide-box-2{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	color: red;
+    margin: 10px 0px 0px 0px;
 	font-size: 2rem;
 
 }
@@ -945,11 +946,16 @@ input:checked ~ .slide-box-2{
 }
 
 .d-inside{
+    font-size: 0.8rem;
+    font-family: 'Muli', sans-serif;
+
 
 	
 }
 .sub-title-inside{
-	width: 192px;
+	width: 230px;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -957,12 +963,14 @@ input:checked ~ .slide-box-2{
     color: #707070;
     opacity: .7;
     width: 80%;
+    font-size: 0.8rem;
+    font-family: 'Muli', sans-serif;
 }
 
 .p-step-inside{
 	color: #707070;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 0.8rem;
 }
 
 ...................../........................./......................../........................./...........
@@ -987,9 +995,10 @@ input:checked ~ .slide-box-2{
 
 .title-inside-2{
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	color: red;
-	font-size: 2rem;
+    font-weight: 700;
+    color: red;
+    margin: 10px 0px 0px 0px;
+    font-size: 2rem;
 
 }
 
@@ -1000,12 +1009,14 @@ input:checked ~ .slide-box-2{
 }
 
 .box-inside-cash-2{
-    width: 33%;
+   width: 33%;
     height: 112vh;
 }
 
 .sub-title-inside-2{
-	width: 192px;
+	width: 230px;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -1013,12 +1024,14 @@ input:checked ~ .slide-box-2{
     color: #707070;
     opacity: .7;
     width: 80%;
+    font-size: 0.8rem;
+    font-family: 'Muli', sans-serif;
 }
 
 .p-step-inside-2{
 	color: #707070;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 0.8rem;
 }
 
 ......................./......................./......................./......................./..........
@@ -1031,7 +1044,6 @@ input:checked ~ .slide-box-2{
 	display: flex;
     justify-content: center;
 
-
 }
 
 .container-inside-3{
@@ -1043,10 +1055,10 @@ input:checked ~ .slide-box-2{
 
 .title-inside-3{
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	color: red;
-	font-size: 2rem;
-
+    font-weight: 700;
+    color: red;
+    margin: 10px 0px 0px 0px;
+    font-size: 2rem;
 }
 
 .box-inside-3{
@@ -1061,7 +1073,9 @@ input:checked ~ .slide-box-2{
 }
 
 .sub-title-inside-3{
-	width: 192px;
+	width: 230px;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -1069,10 +1083,12 @@ input:checked ~ .slide-box-2{
     color: #707070;
     opacity: .7;
     width: 80%;
+    font-size: 0.8rem;
+    font-family: 'Muli', sans-serif;
 }
 
 .p-step-inside-3{
 	color: #707070;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 0.8rem;
 }
