@@ -18,6 +18,7 @@
 				</a>
 			</div>
 			<nav class="menu">
+				<P class="menu-mobile">menu</P>
 				<ul class="menu-list">
 					<a href="about.html" class="menu-item"><li>About us</li></a>
 					<a href="products.html" class="menu-item"><li>Our Products</li></a>
@@ -142,7 +143,7 @@
     <section id="s-slide">
               <div class="box-slide">
 			  <div class="slide">
-			  	<figure><img src="./img/noun_Arrow_2427329 (1).svg" onclick="plusDivs(1)"></figure>
+			  	<figure class="seta-desktop"><img src="./img/noun_Arrow_2427329 (1).svg" onclick="plusDivs(1)"></figure>
 				<div for="slide" class="slide-box">
 					<img class="img-slide" src="./img/depoimento1.png" alt="">
 				</div> 
@@ -152,7 +153,11 @@
 				<div for="slide" class="slide-box">
 					<img class="img-slide" src="./img/depoimento3.png" alt="">
 				</div> 
-			<figure><img src="./img/noun_Arrow_2427329.svg"  onclick="plusDivs(-1)"></figure>
+				<figure class="seta-desktop"><img src="./img/noun_Arrow_2427329.svg"  onclick="plusDivs(-1)"></figure>
+				<div class="seta-mobile">
+						<figure><img src="./img/noun_Arrow_2427329 (1).svg" onclick="plusDivs(1)"></figure>
+					<figure><img src="./img/noun_Arrow_2427329.svg"  onclick="plusDivs(-1)"></figure>
+			</div>
 		    </div>
         </div>
         <div class="box-writing">
@@ -167,7 +172,9 @@
 	</section>
 	<section id="container-agency">
 			<img class="icon-agency" src="./img/globo.svg" alt="">
-			<h2 class="title-agency">Find an agency near you!</h2>
+			<span class="span-agency">
+				<h2 class="title-agency">Find an agency near you!</h2>
+			</span>
 
 			<form class="form-agency">
                 <label class="label-agency" for="country">Country</label>
@@ -326,7 +333,7 @@
 			</nav>
 		</div>
 
-	</footer>s
+	</footer>
 	<script>
 		let slideIndex = 1;
 		
