@@ -8,15 +8,13 @@ body {
 	list-style: none;
 }
 #header {
+  height: 10vh;
 	font-family: 'Montserrat', sans-serif;
 	display:flex;
 	justify-content: center;
 	align-items: center;
-	margin: 1.2%;
 }
-.img-logo {
-  height: 6vh;
-}
+
 .menu {
 	width: 65%;
 	display: flex;
@@ -24,11 +22,78 @@ body {
 	text-decoration: none;
 	list-style: none;
 }
-.item-menu {
-	color: red;
-	font-weight: 900;
-	margin: 0px 2vw 0px 2vw;
+
+.menu-item {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: rgba(238,51,37,1);
+  font-size: 1rem;
 }
+
+.menu-mobile {
+  display: none;  
+}  
+
+    @media(max-width: 768px) {
+        .menu-mobile {
+            display: block;
+            font-size: 1.12rem;
+            text-transform: uppercase; 
+            padding-right: 2rem;
+            color: #EE332570;
+        }
+        .menu-mobile.--menuMobile {
+            display: none;
+        }
+    }
+.fechar-menu {
+    display: none;
+}
+    @media(max-width: 768px) {
+        .fechar-menu {
+            display: none;
+            font-size: 1.12rem;
+            text-transform: uppercase; 
+            padding-right: 2rem;
+            color: #EE332570;
+        }
+        .fechar-menu.--menuClose {
+            display: flex;
+            font-size: 1.12rem;
+            text-transform: uppercase; 
+            padding-right: 2rem;
+            color: #EE332570;
+            z-index: 3;
+        }
+    }
+
+.menu-list{
+	min-width: 50vw;
+	display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+	list-style: none;
+}
+@media(max-width: 768px) {
+    .menu-list {
+        display: none;
+    }
+}
+
+@media(max-width: 768px) {
+    .menu-list.--menuOpen {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        z-index: 2;
+    }
+}
+
 .item-lang{
     color: black;
     font-family: 'Montserrat', sans-serif;
@@ -73,10 +138,10 @@ body {
     text-decoration: none;
 }
 .title-about{
-	width: 30%;
+  width: 33%;
   text-align: right;
-	font-size: 2.5rem;
-	color: white;
+  font-size: 2.9rem;
+  color: white;
 }
 .container-figures{
 	width: 100%;
@@ -108,22 +173,22 @@ body {
     flex-direction: column;
 }
 .p-about{
-    font-family: 'Open Sans', sans-serif;
-    width: 85%;
-    color: #fff;
-    font-size: 1.2rem;
+  font-family: 'Open Sans', sans-serif;
+  width: 74%;
+  color: #fff;
+  font-size: 1.7rem;
 }
 
 .title-values-principal {
-	font-family: 'Montserrat', sans-serif;
-  width: 93%;
+  font-family: 'Montserrat', sans-serif;
+  width: 82%;
   color: #fff;
-  font-size: 2rem;
+  font-size: 3.3rem;
 }
 .title-values{
-	font-family: 'Montserrat', sans-serif;
-	color: #fff;
-	font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 3.9rem;
 }
 #values {
   height: 100%;
@@ -189,7 +254,7 @@ body {
 .p-values{
   width: 90%;
 	color: white;
-	font-size: 0.9rem;
+	font-size: 1.9rem;
 }
 #container-our-board{
   height: 100%;
@@ -199,12 +264,12 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 .title-board{
-  width: 33%;
+  width: 35%;
   display: flex;
   justify-content: flex-end;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   color: red;
-  font-weight: 800;
+  font-weight: 900
 }
 .our-board-content{
   display: flex;
@@ -234,15 +299,23 @@ body {
 	color: red;
 }
 .p-board{
-	font-size: 0.6rem;
-	width: 16vw;
+  color: #231f2096;
+  font-size: 0.9rem;
+  width: 13vw;
+}
+.p-txt-board{
+  width: 35vw;
+  font-size: 1rem;
+  color: #000000;
+  display: flex;
 }
 .p-txt-board-1 {
-	margin: 1vw 0vw 1vw 0vw;
+  font-size: .8rem;
+  color: #00000082;
 }
 .p-txt-board-2{
-  font-size: 0.6rem;
-  opacity: 0.6;
+  font-size: .8rem;
+  color: #00000082;
 }
 .box-txt-board{
 	margin-left: 5%;
@@ -307,7 +380,7 @@ body {
 	align-items: center;
 	flex-direction: column;
 	border-radius: 5%;
-	background-color: #FEE3E3;
+	background-color: #FFF3F2;
 }
 .img-about-news{
   width: 95%;
@@ -321,17 +394,18 @@ body {
 .title-about-news{
   width: 20%;
   display: flex;
-  justify-content: flex-end;
-  font-size: 2.5rem;
+  justify-content: center;
+  font-size: 2.8rem;
   color: red;
-  font-weight: 800;
+  font-weight: 700;
 }
-/* .subtitle-about-news{
+.subtitle-about-news{
 	font-size: 1rem;
 }
 .p-about-news{
-  font-size:1rem;
-} */
+  font-size: .9rem;
+  color: #000000d1;
+}
 #footer{
 	  display: flex;
     justify-content: center;
