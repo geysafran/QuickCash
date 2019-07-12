@@ -191,8 +191,11 @@ body {
 }
   @media(max-width: 768px) {
     .box-figure {
-      width: 90%;
-      object-fit: cover;
+    width: 90%;
+    object-fit: cover;
+    position: relative;
+    right: 36px;
+
     }
   }
 
