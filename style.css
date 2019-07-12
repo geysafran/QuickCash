@@ -633,8 +633,8 @@ input:checked ~ .slide-box-2{
         }
     }
 
-.writing{
-	    width: 30vw;
+.writing{/*
+	    width: 30vw;*/
     font-family: 'Montserrat', sans-serif;
     color: #fff;
     font-weight: 900;
